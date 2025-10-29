@@ -1,4 +1,4 @@
-# zero — Next.js + TypeScript + Redux + shadcn-style Boilerplate
+# next-redux-starter — Next.js + TypeScript + Redux + shadcn-style Boilerplate
 
 This repository is a lightweight Next.js boilerplate that demonstrates a recommended folder structure and wiring for:
 
