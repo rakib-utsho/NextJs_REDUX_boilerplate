@@ -158,16 +158,12 @@ Open <http://localhost:3000> (or the port set in `NEXT_PUBLIC_PORT`) in your bro
 - Expand `src/components/ui` with shared primitives and document usage.
 - Add CI (GitHub Actions) to run lint/build on PRs.
 
+## Author
+
+Md. Rakibul Islam — Junior Frontend Developer
+
 ## License
 
-This project is provided as-is. Add a LICENSE file if you intend to open-source it publicly.
+This project is open-source and released under the MIT License. See the `LICENSE` file for the full text.
 
 ---
-
-If you'd like, I can also:
-
-- run a quick local build/lint check and report results;
-- add a minimal GitHub Actions workflow for CI;
-- scaffold a basic test with Jest for the Redux slice.
-
-Tell me which of those you'd like next and I'll proceed.
