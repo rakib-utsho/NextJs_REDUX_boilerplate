@@ -114,7 +114,7 @@ export const Footer = () => {
         {/* copyright  */}
         <div className="mt-12 pt-4 border-t">
           <p className="text-center text-sm text-muted-foreground">
-            © {new Date().getFullYear()} rakib-utsho. All rights reserved.
+            © {new Date().getFullYear()}. All rights reserved.
           </p>
         </div>
       </div>
