@@ -1,20 +1,18 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "sonner";
 import { Suspense } from "react";
 import ReduxProvider from "@/redux/Provider";
 import Loading from "@/components/Others/Loader/Loading";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+import {
+  bitcount,
+  gravitas,
+  lobster,
+  openSans,
+  playfair,
+  roboto,
+  rowdies,
+} from "@/fonts/Fonts";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -29,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${openSans.variable} ${playfair.variable} ${bitcount.variable} ${lobster.variable} ${roboto.variable} ${gravitas.variable} ${rowdies.variable} antialiased`}
       >
         <Suspense fallback={<Loading />}>
           <ReduxProvider>
